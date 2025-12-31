@@ -1,16 +1,48 @@
-# React + Vite
+# sns_app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 概要
+某snsアプリを再現したWebアプリケーションです。 
+DBに情報を追加、編集、削除までできるようにしました。
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 使用技術
+- HTML
+- CSS
+- JavaScript
+- React
+- node
+- MySQL
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## アプリ内容・機能
+- ログイン・ログアウト機能
+- いいね機能
+- 新規投稿機能
+- 投稿削除機能
+- コメント機能
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 工夫した点
+- UIをコンポーネント化することでデザインの統一とコード量を減らすことを意識しました
+
+---
+
+## 苦労した点
+- フォルダ構造を分けること
+- ルーターの設定
+- Reactのstateの理解
+  
+
+---
+
+
+## セットアップ方法
+
+```sh
+npm install
+
+npm run dev
+
